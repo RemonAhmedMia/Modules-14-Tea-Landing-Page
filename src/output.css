@@ -576,6 +576,11 @@
       margin-inline: calc(var(--spacing) * 0);
     }
   }
+  .md\:mt-\[25px\] {
+    @media (width >= 48rem) {
+      margin-top: 25px;
+    }
+  }
   .md\:w-\[60\%\] {
     @media (width >= 48rem) {
       width: 60%;
@@ -646,6 +651,11 @@
     @media (width >= 48rem) {
       --tw-font-weight: var(--font-weight-bold);
       font-weight: var(--font-weight-bold);
+    }
+  }
+  .lg\:mt-0 {
+    @media (width >= 64rem) {
+      margin-top: calc(var(--spacing) * 0);
     }
   }
   .lg\:grid {
